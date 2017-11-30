@@ -48,7 +48,7 @@ If you put your code through pull-requests, follow the instruction below...
   * Your code should be nested in your name ID so that we could avoid conflicts between your class name and the other ones  
        
 
-### We would love you to contribute about code, design or idea for this site.
+### We would appriciate if you could contribute about code, design or idea for this site.
 
 Thank you:)
 
