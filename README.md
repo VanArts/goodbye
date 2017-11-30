@@ -29,11 +29,12 @@ You can get a template from https://github.com/heyharuna/classProject
 
 
 You can submit your compressed file to <tkc4822@gmail.com>
+  
 Or it would be great if you put your HTML and CSS to proper section through pull-requests.
 
 
-
-When you put your code through puu-request, follow the instruction below...
+   
+When you put your code through puu-request, follow the instruction below...  
 **HTML**
   * Open a proper html file(teahers.html, web12.html or web13.html) 
   * Find your name as a ID attribute with class "sectionsection-container"
@@ -42,10 +43,10 @@ When you put your code through puu-request, follow the instruction below...
 
 **CSS**
   * Put your SCSS code in a proper SCSS file(teahers.html, web12.html or web13.html) 
-  * Your code should be nested in your name ID so that we could avoid conflicts between your class name and the other ones 
+  * Your code should be nested in your name ID so that we could avoid conflicts between your class name and the other ones  
 
   
-
+       
 
 We would love you to contribute about code, design or idea for this site.
 
