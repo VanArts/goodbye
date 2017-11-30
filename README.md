@@ -32,14 +32,13 @@ Or it would be great if you put your HTML and CSS to proper section through pull
 
 ********
    
-When you put your code through puu-request, follow the instruction below...  
+If you put your code through pull-requests, follow the instruction below...  
 **HTML**
   * Open a proper html file(teahers.html, web12.html or web13.html) 
   * Find your name as a ID attribute with class "sectionsection-container"
   * Put your html code inside of the div tag include the ID attribute says your name
 
-
-
+  
 **CSS**
   * Put your SCSS code in a proper SCSS file(teahers.html, web12.html or web13.html) 
   * Your code should be nested in your name ID so that we could avoid conflicts between your class name and the other ones  
