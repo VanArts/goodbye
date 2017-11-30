@@ -6,7 +6,7 @@ We would like you to show your appreciation for James lightly.
 you might get a vague idea from http://takeshioide.com/james/.
 
 ## Create a fullscreen styled page with HTML5 and CSS  
-We leave all the design of your page to you.  Express your "Thank you" somehow.
+We leave all the design of your page to you.  Express your "Thank you" somehow.  
 Please make sure each person has *only one fullscreen page*.  
 You can get a template from https://github.com/heyharuna/classProject  
 
