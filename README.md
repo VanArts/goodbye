@@ -31,7 +31,8 @@ You can get a template from https://github.com/heyharuna/classProject
 You can submit your compressed file to <tkc4822@gmail.com>.  
 Or it would be great if you put your HTML and CSS to proper section through pull-requests(Flow instructions below).  
 
-**Deadline is December 16th**
+### Deadline   
+December 16th**
 
 ********
    
