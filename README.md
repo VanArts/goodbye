@@ -4,14 +4,15 @@ This is a goobye site as a present for James!
 We would like you to show your appreciation for James lightly.
 
 **Create a fullscreen styled page with HTML5 and CSS**
+
 We Leave all the design of your page to you.
 Please make sure each person has *only one fullscreen page*.
 
 You can get a template from https://github.com/heyharuna/classProject
 
 You must submit 
-  * HTMLfile
-  * CSSfile
+* HTMLfile
+* CSSfile
 
 You can optionaly submit
   * Javascript file
