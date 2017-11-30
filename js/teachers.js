@@ -1,9 +1,8 @@
 $(document).ready(function() {
 	$('#fullpageTeachers').fullpage({
-		anchors:['homePage', 'blue','red','green'],
 		navigation: true,
 		//showActiveTooltip: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['home', 'First page','Second page','Third page'],
+		navigationTooltips: ['home', 'Patrick','Anne','Dan', 'Shuwen', 'Mustafa', 'Wim', 'Scott', 'Nathan', 'Guy'],
 	});
 });

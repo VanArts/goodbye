@@ -1,9 +1,8 @@
 $(document).ready(function() {
 	$('#fullpageWeb12').fullpage({
-		anchors:['homePage', 'harunaPage','takPage','fourthPage'],
 		navigation: true,
-		//showActiveTooltip: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['home', 'haruna','tak','fourthPage'],
+		navigationTooltips: ['home', 'Haruna','Tak','Estefania', 'Carly', 'Tom', 'Nishanth'
+	, 'Sandy', 'Nina', 'Peter', 'Coleman', 'Sachiko', 'Michael'],
 	});
 });
