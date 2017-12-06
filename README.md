@@ -48,7 +48,7 @@ If you put your code through pull-requests, follow the instruction below...
   * Put your SCSS code in a proper SCSS file(teahers.html, web12.html or web13.html) 
   * Your code should be nested in your name ID so that we could avoid conflicts between your class name and the other ones  
   
-## You have to run below command first so that you can use SASS!
+## You have to run below command at first so that you can use SASS!
  * $ npm install
  * $ npm run gulp
 
