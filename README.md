@@ -37,7 +37,6 @@ December 16th**
 ********
    
 If you put your code through pull-requests, follow the instruction below...  
-
 **HTML**
   * Open a proper html file(teahers.html, web12.html or web13.html) 
   * Find the div tag an ID attribute of your name with class "sectionsection-container"
@@ -47,10 +46,7 @@ If you put your code through pull-requests, follow the instruction below...
 **CSS**
   * Put your SCSS code in a proper SCSS file(teahers.html, web12.html or web13.html) 
   * Your code should be nested in your name ID so that we could avoid conflicts between your class name and the other ones  
-  
-## You have to run below command at first so that you can use SASS!
- * $ npm install
- * $ npm run gulp
+       
 
 ### We would appriciate if you could contribute about code, design or idea for this site.
 
