@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <title>Thank you!</title>
+        <meta name="description" content="A thank you note for James Finn by Silvana Agolli">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        
+        <link href="bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
+
+        <link href="main.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
+        <script src="modernizr-2.6.2-respond-1.1.0.min.js"></script>
+
+    </head>
+    <body>
+      <div class="container">
+      	<div class="top-bar">
+      		<img class="icon" src="united_kingdom_icon.png">
+      		<div class="styled-select blue">
+			  <select onChange="window.location.replace(this.options[this.selectedIndex].value)">
+			    <option value="index.html">Irish</option>
+			    <option selected value="">English</option>
+			  </select>
+			</div>
+      	</div>
+      	
+      	<h2>Thank you, James!</h1>
+    	<div class="slideshow-container">
+		  <div style="background-color:rgb(21, 152, 103);" class="mySlides fade">
+		    <!-- <div class="numbertext">1 / 3</div> -->
+		    	<!-- <img src="ireland-landscape.jpg" style="width:100%"> -->
+		    <div class="text"><h1>I learned most of my coding skills from you. <br>I will not forget the excitement of learning how to make a slider in javascript.</h1></div>
+		  </div>
+
+		  <div style="background-color:rgb(255, 255, 255);" class="mySlides fade">
+		    <!-- <div class="numbertext">2 / 3</div> -->
+		    	<!-- <img src="img2.jpg" style="width:100%"> -->
+		    <div class="text"><h1 style="color:#4d4d4d;">I think teaching comes natural to you. <br>Your authority and commitment made you shine as one of the best instructors at vanarts.</h1></div>
+		  </div>
+
+		  <div style="background-color:rgb(252, 102, 33);" class="mySlides fade">
+		    <!-- <div class="numbertext">3 / 3</div> -->
+		    	<!-- <img src="img3.jpg" style="width:100%"> -->
+		    <div class="text"><h1>Wish you all the best with your career wherever that may be.<br>
+Thank you again.
+</h1></div>
+		  </div>
+
+		  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+		  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+		</div>
+		<br>
+
+		<div style="text-align:center">
+		  <span class="dot" onclick="currentSlide(1)"></span> 
+		  <span class="dot" onclick="currentSlide(2)"></span> 
+		  <span class="dot" onclick="currentSlide(3)"></span> 
+		</div>
+	 </div>
+		
+		<script src="jquery.min.js"></script>
+        <script src="jquery.plugin.min.js"></script>
+        <script src="bootstrap.min.js"></script>
+        
+		<script type="text/javascript">
+			var slideIndex = 1;
+			showSlides(slideIndex);
+
+			function plusSlides(n) {
+			  showSlides(slideIndex += n);
+			}
+
+			function currentSlide(n) {
+			  showSlides(slideIndex = n);
+			}
+			function showSlides(n) {
+			  var i;
+			  var slides = document.getElementsByClassName("mySlides");
+			  var dots = document.getElementsByClassName("dot");
+			  if (n > slides.length) {slideIndex = 1} 
+			  if (n < 1) {slideIndex = slides.length}
+			  for (i = 0; i < slides.length; i++) {
+			      slides[i].style.display = "none"; 
+			  }
+			  for (i = 0; i < dots.length; i++) {
+			      dots[i].className = dots[i].className.replace(" active", "");
+			  }
+			  slides[slideIndex-1].style.display = "block"; 
+			  dots[slideIndex-1].className += " active";
+			}
+		</script>			
+
+    </body>
+</html>

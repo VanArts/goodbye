@@ -15,7 +15,7 @@ gulp.task('compileSass', function() {
 });
 
 gulp.task('watch', function () {
-    gulp.watch('scss/**/*{.scss,.sass}', ['compileSass'])
+    gulp.watch('scss/*{.scss,.sass}', ['compileSass'])
 });
 
 gulp.task('default', ['watch']);
