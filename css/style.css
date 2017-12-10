@@ -366,4 +366,29 @@ h1, .page-title {
     color: white;
     padding: 0; }
 
+#tom {
+  position: relative; }
+  #tom img {
+    height: 100%; }
+  #tom article.copy {
+    position: absolute;
+    top: 180px;
+    right: 150px;
+    width: -webkit-calc(100% - 1162px + 500px - 50px);
+    width: calc(100% - 1162px + 500px - 50px);
+    max-width: 600px;
+    background-color: rgba(156, 0, 94, 0.9);
+    padding: 10px 20px;
+    text-align: left; }
+    #tom article.copy h1 {
+      margin: 0 0 40px 0;
+      padding: 0;
+      text-align: left;
+      font-size: 3rem; }
+    #tom article.copy p, #tom article.copy h1 {
+      color: white; }
+    #tom article.copy span {
+      font-style: italic;
+      color: white; }
+
 /*# sourceMappingURL=style.css.map */
