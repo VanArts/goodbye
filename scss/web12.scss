@@ -124,9 +124,9 @@ $carlyColour: black;
         display:flex;
         flex-flow:column;
         justify-content:center;
-        
+
         h1, h2 {
-            text-align:center;   
+            text-align:center;
             padding:0;
             margin:0;
             color:white;
@@ -153,11 +153,86 @@ $carlyColour: black;
         color:white;
         padding:0;
     }
-    
+
 }
 
 
+#sandy.section-container{
+  background-image: url('../img/clouds.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
 
+  h2 {
+    margin: 0;
+    padding-top: 40px;
+    margin-left: 20px;
+  }
 
-
-
+  .sandy-container{
+  	display: flex;
+  	flex-direction: row
+  }
+  .profile{
+    margin-left: 20px;
+  	width: 200px;
+  	height: 200px;
+  }
+  .thank{
+  	color:orange;
+  	font-size: 7rem;
+  	font-family: 'Leckerli One', cursive;
+  	text-align: center;
+  	margin-bottom: 0px;
+  	margin-top: 50px;
+  }
+  .james{
+  	color:orange;
+  	font-size: 7rem;
+  	padding-top: 0px;
+  	margin-top: 0px;
+  	padding-bottom: 0px;
+  	margin-bottom: 25px;
+  	text-align: center;
+  	font-family: 'Leckerli One', cursive;
+  }
+  .outline-border-effect{
+  	background: none;
+    border: 0;
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+    padding-top: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 0 10px #66cccc;
+    color: #66cccc;
+    font-weight: 700;
+    padding: 1em 2em;
+	}
+  .border-this{
+    flex: 3;
+  }
+  .item{
+    flex: 2;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .code{
+  	height: 250px;
+  	width: 400px;
+  }
+  .bigger-border{
+    box-sizing: border-box;
+    box-shadow: inset 0 0 0 10px white;
+    padding: 1em 2em;
+    height: 700px;
+  }
+  .thank-you-text{
+  	font-family: 'Raleway', sans-serif;
+  	color:#2d499d;
+  	font-size: 1.6rem;
+  	font-weight: bold;
+  	width: 100%;
+  }
+}

@@ -366,6 +366,90 @@ h1, .page-title {
     color: white;
     padding: 0; }
 
+#sandy.section-container {
+  background-image: url("../img/clouds.jpg");
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+          background-size: cover; }
+  #sandy.section-container h2 {
+    margin: 0;
+    padding-top: 40px;
+    margin-left: 20px; }
+  #sandy.section-container .sandy-container {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row; }
+  #sandy.section-container .profile {
+    margin-left: 20px;
+    width: 200px;
+    height: 200px; }
+  #sandy.section-container .thank {
+    color: orange;
+    font-size: 7rem;
+    font-family: 'Leckerli One', cursive;
+    text-align: center;
+    margin-bottom: 0px;
+    margin-top: 50px; }
+  #sandy.section-container .james {
+    color: orange;
+    font-size: 7rem;
+    padding-top: 0px;
+    margin-top: 0px;
+    padding-bottom: 0px;
+    margin-bottom: 25px;
+    text-align: center;
+    font-family: 'Leckerli One', cursive; }
+  #sandy.section-container .outline-border-effect {
+    background: none;
+    border: 0;
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+    padding-top: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: inset 0 0 0 10px #66cccc;
+            box-shadow: inset 0 0 0 10px #66cccc;
+    color: #66cccc;
+    font-weight: 700;
+    padding: 1em 2em; }
+  #sandy.section-container .border-this {
+    -webkit-box-flex: 3;
+    -webkit-flex: 3;
+        -ms-flex: 3;
+            flex: 3; }
+  #sandy.section-container .item {
+    -webkit-box-flex: 2;
+    -webkit-flex: 2;
+        -ms-flex: 2;
+            flex: 2;
+    margin-left: 50px;
+    margin-top: 50px; }
+  #sandy.section-container .code {
+    height: 250px;
+    width: 400px; }
+  #sandy.section-container .bigger-border {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    -webkit-box-shadow: inset 0 0 0 10px white;
+            box-shadow: inset 0 0 0 10px white;
+    padding: 1em 2em;
+    height: 700px; }
+  #sandy.section-container .thank-you-text {
+    font-family: 'Raleway', sans-serif;
+    color: #2d499d;
+    font-size: 1.6rem;
+    font-weight: bold;
+    width: 100%; }
+
 #tom {
   position: relative; }
   #tom img {
