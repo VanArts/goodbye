@@ -58,55 +58,61 @@
   width: 100vw;
   height: 100vh;
 
-  .container {
-      width: 90%;
-      max-width: 90%;
-      height: 100%;
+  .wrapper {
+    width: 80%;
+    max-width: 1500px;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
   }
-  .name h2 {
-      font-size: 6.5rem;
-      font-family: 'Fredoka One', cursive;
-      color: #463d42;
-  }
-  .message {
-      position: relative;
-      z-index: 2;
-  }
-  .message p{
-      font-size: 1.4rem;
-      font-family: 'Didact Gothic', sans-serif;
-      line-height: 2.5rem;
-      color: #463d42;
-  }
-
-  .name h2 {
-      margin: 1.8rem 0;
-      border-bottom: 5px solid #fff001;
-  }
-  .row {
-      height: 50%;
-  }
-  .row .col-9 {
-      height: 100%;
-  }
-  .info {
-      display: flex;
-      flex-direction: column;
-      justify-content: flex-start;
-      align-items: flex-start;
-      width: 90%;
-  }
-
-  .picture {
-      width: 80%;
-      height: 100%;
-      float: right;
-  }
-
-  .picture img {
-      height: 100%;
+  .face {
+    opacity: 0;
+    width: 30%;
+    margin-top: 400px;
+    margin-left: -50px;
+    img {
       width: 100%;
-      object-fit: contain;
+    }
+  }
+  .bubble {
+    opacity: 0;
+    width: 70%;
+    height: 650px;
+    background-image: url('../img/bubble.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px;
+    p {
+      font-size: 2rem;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+  }
+  .tak-name {
+    font-size: 1.5rem;
+  }
+  @keyframes jackInTheBox {
+    from {
+      opacity: 0;
+      transform: scale(0.1) rotate(30deg);
+      transform-origin: center bottom;
+    }
+
+    50% {
+      transform: rotate(-10deg);
+    }
+
+    70% {
+      transform: rotate(3deg);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  .jackInTheBox {
+    animation-name: jackInTheBox;
+    animation-duration: 1s;
   }
 }
 
