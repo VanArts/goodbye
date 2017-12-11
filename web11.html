@@ -10,23 +10,31 @@
         <meta name="description" content="A thank you note for James Finn by Silvana Agolli">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link href="main.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
-        <script src="modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
 
     </head>
     <body>
-      <div class="container">
+      <nav>
+        <ul class="nav">
+          <li class="nav-li"><a class="nav-text" href="teachers.html">Teachers</a></li>
+          <li class="nav-li"><a class="nav-text" href="web12.html">Web 12</a></li>
+          <li class="nav-li"><a class="nav-text" href="web13.html">Web 13</a></li>
+          <li class="nav-li"><a class="nav-text" href="web11.html">Silvana</a></li>
+        </ul>
+      </nav>
+      <div class="container" id="silvana">
       	<div class="top-bar">
-      		<img class="icon" src="ireland_icon.png">
+      		<img class="icon" src="img/ireland_icon.png">
       		<div class="styled-select blue">
-			  <select onChange="window.location.replace(this.options[this.selectedIndex].value)">
-			    <option selected value=""><p>Irish</p></option>
-			    <option value="english.html"><p>English</p></option>
-			  </select>
-			</div>
-      	</div>
-      	
+    			  <select onChange="window.location.replace(this.options[this.selectedIndex].value)">
+    			    <option selected value="web11.html"><p>Irish</p></option>
+    			    <option value="english.html"><p>English</p></option>
+    			  </select>
+    			</div>
+        </div>
+
       	<h2>Go raibh maith agat, James!</h1>
     	<div class="slideshow-container">
 		  <div style="background-color:rgb(21, 152, 103);" class="mySlides fade">
@@ -54,16 +62,16 @@ Go raibh maith agat arís.</h1><br><h2>Silvana Agolli - Web 11</h2></div>
 		<br>
 
 		<div style="text-align:center">
-		  <span class="dot" onclick="currentSlide(1)"></span> 
-		  <span class="dot" onclick="currentSlide(2)"></span> 
-		  <span class="dot" onclick="currentSlide(3)"></span> 
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
 		</div>
 	 </div>
-		
-		<script src="jquery.min.js"></script>
+
+		<!-- <script src="jquery.min.js"></script>
         <script src="jquery.plugin.min.js"></script>
-        <script src="bootstrap.min.js"></script>
-        
+        <script src="bootstrap.min.js"></script> -->
+
 		<script type="text/javascript">
 			var slideIndex = 1;
 			showSlides(slideIndex);
@@ -79,20 +87,20 @@ Go raibh maith agat arís.</h1><br><h2>Silvana Agolli - Web 11</h2></div>
 			  var i;
 			  var slides = document.getElementsByClassName("mySlides");
 			  var dots = document.getElementsByClassName("dot");
-			  if (n > slides.length) {slideIndex = 1} 
+			  if (n > slides.length) {slideIndex = 1}
 			  if (n < 1) {slideIndex = slides.length}
 			  for (i = 0; i < slides.length; i++) {
-			      slides[i].style.display = "none"; 
+			      slides[i].style.display = "none";
 			  }
 			  for (i = 0; i < dots.length; i++) {
 			      dots[i].className = dots[i].className.replace(" active", "");
 			  }
-			  slides[slideIndex-1].style.display = "block"; 
+			  slides[slideIndex-1].style.display = "block";
 			  dots[slideIndex-1].className += " active";
 			}
 
 
-		</script>			
+		</script>
 
     </body>
 </html>

@@ -1,35 +1,38 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!-->
-<html class="no-js"> <!--<![endif]-->
+<html class="no-js">
     <head>
         <meta charset="utf-8">
         <title>Thank you!</title>
         <meta name="description" content="A thank you note for James Finn by Silvana Agolli">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        
-        <link href="bootstrap.min.css" rel="stylesheet" type="text/css" media="all"/>
 
-        <link href="main.css" rel="stylesheet" type="text/css" media="all"/>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+
         <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
-        <script src="modernizr-2.6.2-respond-1.1.0.min.js"></script>
+        <link rel="stylesheet" href="css/style.css">
 
     </head>
     <body>
-      <div class="container">
+      <nav>
+        <ul class="nav">
+          <li class="nav-li"><a class="nav-text" href="teachers.html">Teachers</a></li>
+          <li class="nav-li"><a class="nav-text" href="web12.html">Web 12</a></li>
+          <li class="nav-li"><a class="nav-text" href="web13.html">Web 13</a></li>
+          <li class="nav-li"><a class="nav-text" href="web11.html">Silvana</a></li>
+        </ul>
+      </nav>
+      <div class="container" id="silvana">
       	<div class="top-bar">
-      		<img class="icon" src="united_kingdom_icon.png">
+      		<img class="icon" src="img/united_kingdom_icon.png">
       		<div class="styled-select blue">
 			  <select onChange="window.location.replace(this.options[this.selectedIndex].value)">
-			    <option value="index.html">Irish</option>
+			    <option value="web11.html">Irish</option>
 			    <option selected value="">English</option>
 			  </select>
 			</div>
       	</div>
-      	
+
       	<h2>Thank you, James!</h1>
     	<div class="slideshow-container">
 		  <div style="background-color:rgb(21, 152, 103);" class="mySlides fade">
@@ -58,16 +61,16 @@ Thank you again.
 		<br>
 
 		<div style="text-align:center">
-		  <span class="dot" onclick="currentSlide(1)"></span> 
-		  <span class="dot" onclick="currentSlide(2)"></span> 
-		  <span class="dot" onclick="currentSlide(3)"></span> 
+		  <span class="dot" onclick="currentSlide(1)"></span>
+		  <span class="dot" onclick="currentSlide(2)"></span>
+		  <span class="dot" onclick="currentSlide(3)"></span>
 		</div>
 	 </div>
-		
-		<script src="jquery.min.js"></script>
+
+		<!-- <script src="jquery.min.js"></script>
         <script src="jquery.plugin.min.js"></script>
-        <script src="bootstrap.min.js"></script>
-        
+        <script src="bootstrap.min.js"></script> -->
+
 		<script type="text/javascript">
 			var slideIndex = 1;
 			showSlides(slideIndex);
@@ -83,18 +86,18 @@ Thank you again.
 			  var i;
 			  var slides = document.getElementsByClassName("mySlides");
 			  var dots = document.getElementsByClassName("dot");
-			  if (n > slides.length) {slideIndex = 1} 
+			  if (n > slides.length) {slideIndex = 1}
 			  if (n < 1) {slideIndex = slides.length}
 			  for (i = 0; i < slides.length; i++) {
-			      slides[i].style.display = "none"; 
+			      slides[i].style.display = "none";
 			  }
 			  for (i = 0; i < dots.length; i++) {
 			      dots[i].className = dots[i].className.replace(" active", "");
 			  }
-			  slides[slideIndex-1].style.display = "block"; 
+			  slides[slideIndex-1].style.display = "block";
 			  dots[slideIndex-1].className += " active";
 			}
-		</script>			
+		</script>
 
     </body>
 </html>
