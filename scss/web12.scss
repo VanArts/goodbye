@@ -109,3 +109,55 @@
       object-fit: contain;
   }
 }
+
+$carlyColour: black;
+#carly {
+    height:100%;
+    position:relative;
+    background: url('../img/carly.jpg') no-repeat;
+    background-size:cover;
+    .info {
+        width:50%;
+        height:100%;
+        margin:auto;
+        top:1rem;
+        display:flex;
+        flex-flow:column;
+        justify-content:center;
+        
+        h1, h2 {
+            text-align:center;   
+            padding:0;
+            margin:0;
+            color:white;
+            font-weight:normal;
+            font-family: 'Patua One', cursive;
+        }
+        h1{font-size:4rem;}
+        h2 {font-size:3rem;}
+        p, h2 {
+            color:white;
+        }
+    }
+    .border {
+        position:absolute;
+        top:15%;
+        left:15%;
+        background: rgba($carlyColour, 0.9);
+        border:4px solid white;
+        margin:auto;
+        width:70%;
+        height:70%;
+        z-index:100;
+        text-align:right;
+        color:white;
+        padding:0;
+    }
+    
+}
+
+
+
+
+
+
