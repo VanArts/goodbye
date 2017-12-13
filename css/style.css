@@ -519,10 +519,6 @@ html, body {
     -webkit-flex-direction: row;
         -ms-flex-direction: row;
             flex-direction: row; }
-  #sandy.section-container .profile {
-    margin-left: 20px;
-    width: 200px;
-    height: 200px; }
   #sandy.section-container .thank {
     color: orange;
     font-size: 7rem;
