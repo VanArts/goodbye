@@ -1,0 +1,157 @@
+@font-face {
+  font-family: 'Rockwell';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Rockwell'), url('../fonts/rockwell.woff') format('woff');
+}
+
+html, body {
+  height: 100%;
+}
+
+#anne {
+  font-family: 'Rockwell';
+  position: relative;
+  height: 100%;
+  padding: 10%;
+  text-align: center;
+}
+
+
+#anne img {
+  margin-bottom: 30px;
+  max-width: 250px;
+}
+
+#anne a {
+  color: #35a8ac;
+}
+
+#anne h2 {
+  font-family: 'Rockwell';
+  font-size: 100px;
+  margin: 0;
+  font-weight: normal;
+}
+
+#anne h3 {
+  font-family: 'Rockwell';
+  font-size: 36px;
+  margin: 0 0 60px 0;
+  font-weight: normal;
+}
+
+#anne p {
+  font-family: 'Rockwell';
+  font-size: 18px;
+  margin: 0;
+}
+
+@media screen and (min-width: 750px) {
+
+  #anne {
+    margin: 0;
+    padding: 0;
+  }
+
+  #anne h2 {
+    font-size: 145px;
+  }
+
+  #anne h3 {
+    font-size: 49px;
+    margin: 0;
+  }
+
+  #anne p {
+    font-size: 25px;
+  }
+
+  #anne img {
+    width: 50%;
+    max-width: 750px;
+    position: absolute;
+    top: 5vw;
+    left: 5vw;
+  }
+
+  #anne .message {
+    position: absolute;
+    /*bottom: 5%;
+    right: 5%;*/
+    text-align: right;
+    width: 80%;
+    max-width: 1000px;
+    bottom: 7vw;
+    right: 7vw;
+  }
+}
+
+#dan {
+  width: 1150px;
+  position: relative;
+  margin: auto;
+  p.message{
+    position: absolute;
+    font-size: 24px;
+    z-index: 60;
+    background-color: wheat;
+    padding: 2rem;
+    top: 32%;
+    left: 6%;
+    width: 60%;
+  }
+}
+
+#scott{
+  width: 100%;
+  height: 100%;
+  hright: 100vh;
+  position: relative;
+  .rocket-wrapper{
+    position: absolute;
+    width: 55%;
+    height: 100%;
+    margin-left: 10%;
+    background-image: url('../img/rocket_bg.svg');
+    background-repeat: no-repeat;
+    background-size: 80%;
+    background-position: left 50px;
+    .rocket{
+      width:60%;
+      padding-top: 100px;
+      padding-left: 30px;
+      animation-name: rocket;
+      animation-duration: 2s;
+      animation-iteration-count: infinite;
+    }
+  }
+
+  .message{
+    width: 30%;
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+    background: #4477BC;
+    padding: 40px;
+    border-radius: 2px;
+    p {
+      color: white;
+      font-size: 24px;
+    }
+  }
+}
+@keyframes rocket {
+  from {
+    transform: translate(0,0);
+  }
+
+  60% {
+    transform: translate(70px, -70px);
+  }
+
+
+  to {
+    transform: translate(0,0);
+  }
+}

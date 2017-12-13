@@ -1,0 +1,400 @@
+#haruna {
+  width: 100vw;
+  height: 100vh;
+  background: #f6f6f6;
+  position: relative;
+
+  .container {
+    width: 90%;
+    max-width: 90%;
+    height: 100%;
+  }
+  .row {
+      height: 100%;
+  }
+  .col-6 {
+      height: 100%;
+  }
+  .picture {
+      width: 100%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: flex-end;
+      position: relative;
+      z-index: 1;
+  }
+  .picture img {
+      width: 90%;
+      height: 80%;
+      object-fit: contain;
+  }
+  .box {
+      position: absolute;
+      width: 58%;
+      height: 60%;
+      border: solid 5px #da1e75;
+      top: 75px;
+      left: 450px;
+  }
+  .name h2 {
+      font-size: 6.5rem;
+      font-family: 'Fredoka One', cursive;
+      color: #463d42;
+  }
+  .message {
+      position: relative;
+      z-index: 2;
+  }
+  .message p{
+      font-size: 1.4rem;
+      font-family: 'Didact Gothic', sans-serif;
+      line-height: 2.5rem;
+      color: #463d42;
+  }
+}
+
+#tak{
+  width: 100vw;
+  height: 100vh;
+
+  .wrapper {
+    width: 80%;
+    max-width: 1500px;
+    margin: auto;
+    padding-top: 50px;
+    display: flex;
+  }
+  .face {
+    opacity: 0;
+    width: 30%;
+    margin-top: 400px;
+    margin-left: -50px;
+    img {
+      width: 100%;
+    }
+  }
+  .bubble {
+    opacity: 0;
+    width: 70%;
+    height: 700px;
+    background-image: url('../img/bubble.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 130px;
+    p {
+      font-size: 2rem;
+      margin-top: 0;
+      margin-bottom: 15px;
+    }
+  }
+  .tak-name {
+    font-size: 1.5rem;
+  }
+  @keyframes jackInTheBox {
+    from {
+      opacity: 0;
+      transform: scale(0.1) rotate(30deg);
+      transform-origin: center bottom;
+    }
+
+    50% {
+      transform: rotate(-10deg);
+    }
+
+    70% {
+      transform: rotate(3deg);
+    }
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  .jackInTheBox {
+    animation-name: jackInTheBox;
+    animation-duration: 1s;
+  }
+}
+
+$carlyColour: black;
+#carly {
+    height:100%;
+    position:relative;
+    background: url('../img/carly.jpg') no-repeat;
+    background-size:cover;
+    .info {
+        width:50%;
+        height:100%;
+        margin:auto;
+        top:1rem;
+        display:flex;
+        flex-flow:column;
+        justify-content:center;
+
+        h1, h2 {
+            text-align:center;
+            padding:0;
+            margin:0;
+            color:white;
+            font-weight:normal;
+            font-family: 'Patua One', cursive;
+        }
+        h1{font-size:4rem;}
+        h2 {font-size:3rem;}
+        p, h2 {
+            color:white;
+        }
+    }
+    .border {
+        position:absolute;
+        top:15%;
+        left:15%;
+        background: rgba($carlyColour, 0.9);
+        border:4px solid white;
+        margin:auto;
+        width:70%;
+        height:70%;
+        z-index:100;
+        text-align:right;
+        color:white;
+        padding:0;
+    }
+
+}
+
+
+#sandy.section-container{
+  background-image: url('../img/clouds.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  h2 {
+    margin: 0;
+    padding-top: 40px;
+    margin-left: 20px;
+  }
+
+  .sandy-container{
+  	display: flex;
+  	flex-direction: row
+  }
+
+  .thank{
+  	color:orange;
+  	font-size: 7rem;
+  	font-family: 'Leckerli One', cursive;
+  	text-align: center;
+  	margin-bottom: 0px;
+  	margin-top: 50px;
+  }
+  .james{
+  	color:orange;
+  	font-size: 7rem;
+  	padding-top: 0px;
+  	margin-top: 0px;
+  	padding-bottom: 0px;
+  	margin-bottom: 25px;
+  	text-align: center;
+  	font-family: 'Leckerli One', cursive;
+  }
+  .outline-border-effect{
+  	background: none;
+    border: 0;
+    width: 300px;
+    height: auto;
+    margin-top: 50px;
+    padding-top: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+    box-sizing: border-box;
+    box-shadow: inset 0 0 0 10px #66cccc;
+    color: #66cccc;
+    font-weight: 700;
+    padding: 1em 2em;
+	}
+  .border-this{
+    flex: 3;
+  }
+  .item{
+    flex: 2;
+    margin-left: 50px;
+    margin-top: 50px;
+  }
+  .code{
+  	height: 250px;
+  	width: 400px;
+  }
+  .bigger-border{
+    box-sizing: border-box;
+    box-shadow: inset 0 0 0 10px white;
+    padding: 1em 2em;
+    height: 700px;
+  }
+  .thank-you-text{
+  	font-family: 'Raleway', sans-serif;
+  	color:#2d499d;
+  	font-size: 1.6rem;
+  	font-weight: bold;
+  	width: 100%;
+  }
+}
+
+#nina {
+  position: relative;
+	img {
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    left: 15%;
+
+  }
+  .copy {
+    position: absolute;
+    top: 180px;
+    right: 20%;
+
+    width: calc(100% - 1162px + 500px - 50px);
+    max-width: 600px;
+    background-color: hsla(255, 69%, 38%, 0.90);
+    padding: 10px 20px;
+    text-align: left;
+
+    h1 {
+			margin: 0 0 40px 0;
+			padding: 0;
+			text-align: left;
+      font-size: 3rem;
+      color:white;
+    }
+		p {
+			color: white
+    }
+		span{
+      font-weight:bold;
+			color: white;
+    }
+  }
+}
+
+@font-face {
+    font-family: 'chelsea_market';
+    src: url('../fonts/chelseamarket-regular-webfont.woff2') format('woff2'),
+         url('fonts/chelseamarket-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#sachiko {
+  box-sizing: border-box;
+  margin:0; padding:0;
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  /*height: 100vh;*/
+}
+
+#sachiko .james {
+  width: auto;
+  height: 100vh;
+  background-image: url('../img/james.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sachiko .star-left {
+  width: auto;
+  height: 100vh;
+  background-image: url('../img/star_left.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#sachiko .star-right {
+  width: auto;
+  height: 100vh;
+  background-image: url('../img/star_right.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#sachiko .text-left-con,.text-right-con {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  float: left;
+}
+
+#sachiko .text-right {
+  font-family: 'Montserrat', sans-serif;
+  color: #3f2200; /* Brown */
+  padding-left: 10vw;
+  padding-right: 0;
+  margin-top: 15vh;
+  line-height: 1.2;
+}
+
+#sachiko .text-left {
+  font-family: 'Montserrat', sans-serif;
+  color: #3f2200; /* Brown */
+  padding-right: 10vw;
+  padding-left: 0;
+  margin-top: 15vh;
+  line-height: 1.2;
+}
+
+#sachiko .sachiko {
+  font-family: 'chelsea_market';
+  color: #3f2200; /* Brown */
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 961px) {
+  #sachiko .text-right {
+    padding-right: 10px;
+    padding-left: 18vw;
+  }
+
+  #sachiko .text-left {
+    padding-right: 18vw;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #sachiko .text-left-con,.text-right-con {
+    width: 100%;
+    height: auto;
+    display: inherit;
+  }
+
+  #sachiko .text-right {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #sachiko .text-left {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #sachiko .james {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-size: contain;
+  }
+
+  #sachiko .sachiko {
+    text-align: center;
+    display: inherit;
+  }
+
+}
