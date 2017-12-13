@@ -1,0 +1,564 @@
+//========================
+//       Renzo
+//========================
+#renzo {
+  width:100vw;
+  height:100vh;
+  position:relative;
+  overflow-x:hidden;
+}
+
+#renzo .name {
+  border:7px solid rgba(176,48,96,0.9);
+  width:605px;
+  text-align:center;
+  position:absolute;
+  right:150px;
+  top:75px;
+
+  .name-text{
+    font-family:'Francois One', sans-serif;
+    font-size:80px;
+    color:crimson;
+  }
+  .underline{
+    text-decoration:underline;
+    font-family:'Francois One', sans-serif;
+    font-size:80px;
+    color:crimson;
+  }
+}
+
+
+#renzo .renzo-container {
+  position:relative;
+}
+
+#renzo .overlay {
+  position:absolute;
+  bottom:-73px;
+  left:0;
+  right:0;
+  overflow:hidden;
+  width:100%;
+  height:158%;
+  background:rgba(176,48,96,0.9);
+  transition: 0.5s ease;
+}
+
+#renzo .renzo-container:hover .overlay {
+  bottom:100%;
+  height:0;
+}
+
+#renzo .name:hover .renzo-container .overlay {
+  bottom:100%;
+  height:0;
+}
+
+#renzo .renzo-image {
+  position:absolute;
+  top:125px;
+  right:755px;
+  width:500px;
+}
+
+#renzo .message {
+  position:absolute;
+  width:75%;
+  bottom:25.8%;
+  left:200px;
+  text-align:center;
+  p {
+    font-family:'Didact Gothic', sans-serif;
+    font-weight:bold;
+    font-size:24px;
+    color:#00ab6c;
+  }
+}
+
+#renzo .diagonal {
+  width: 500px;
+  height: 100%;
+  transform: skew(20deg);
+  background: black;
+}
+//========================
+//       pavithira
+//========================
+#pavithira {
+	width: 1500px;
+	max-width: 100%;
+	height: 720px;
+	position: relative;
+	margin: auto;
+	background: grey;
+	background-image: url('../img/bg-image.png');
+	background-attachment: cover;
+	padding: 0;
+	border:0;
+}
+#pavithira .donut{
+	position: absolute;
+	top: 350px;
+	margin-left: -10px;
+	width: 300px;
+	max-width: 100%;
+}
+#pavithira .curly-brackets{
+	z-index: 99;
+	position: absolute;
+	left: 270px;
+	top: 150px;
+	width:750px;
+	max-width: 100%;
+}
+ #pavithira h2,#pavithira p{
+	font-size: 1.2em;
+	font-weight: bold;
+	width: 400px;
+	max-width: 100%;
+	position: relative;
+	font-family: 'Merienda One', cursive;
+	top: 200px;
+	margin-left: 31%;
+	margin-right: -30%;
+}
+#pavithira .profile-pic{
+	position: absolute;
+	right: 50px;
+	bottom:70px;
+	width: 400px;
+	max-width: 100%;
+	border:0;
+	margin: 0;
+	padding: 0;
+	transform: rotate(15deg);
+	border:solid 10px pink;
+}
+#pavithira .heading{
+	position: absolute;
+	top: -40px;
+	left: 60px;
+	font-size: 5em;
+	font-family: 'Merienda One', cursive;
+	color: #616161;
+}
+//========================
+//       sahil
+//========================
+#sahil {
+    font-family: verdana, sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+    padding: 0;
+    position: relative;
+    overflow: hidden;
+    height: 80vh;
+    .message {
+        width: 50%;
+        padding: 15px;
+        background: palegoldenrod;
+        border: solid 2px black;
+        position: absolute;
+        bottom: -220px;
+        right: 375px;
+    }
+
+    .message h1 {
+        width: 315px;
+        border: solid 2px goldenrod;
+        background: black;
+        color: white;
+        padding: 10px 30px;
+        position: absolute;
+        top: -70px;
+        right: 30px;
+        z-index: 15;
+    }
+
+    img[alt="Sahil Rashyani"] {
+        display: block;
+        width: 125px;
+        border: solid 2px black;
+        border-radius: 100px;
+        position: absolute;
+        top: -80px;
+        right: -25px;
+        z-index: 15;
+    }
+
+    @keyframes rise {
+        0% { bottom: -220px; }
+        10% { bottom: -220px; }
+        20% { bottom: -220px; }
+        30% { bottom: -220px; }
+        31% { bottom: 58px;}
+        40% { bottom: 55px; }
+        50% { bottom: 55px; }
+        60% { bottom: 55px; }
+        61% { bottom: 87px; }
+        70% { bottom: 85px; }
+        80% { bottom: 85px; }
+        81% { bottom: 100px; }
+        90% { bottom: 100px; }
+        100% { bottom: 100px; }
+    }
+
+    &:hover .message {
+        animation-name: rise;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        transform-origin: 50% 100%;
+    }
+
+    .message h2 {
+        font-size: 1.25em;
+        margin-top: 25px;
+    }
+
+    .container {
+        width: 60%;
+        min-width: 500px;
+        max-width: 700px;
+        height: 100px;
+        background: grey;
+        border-top: solid 3px black;
+        border-right: solid 3px black;
+        border-left: solid 3px black;
+        position: absolute;
+        bottom: 4px;
+        right: 350px;
+    }
+
+    img[alt="Hammer"] {
+        width: 80px;
+        position: absolute;
+        bottom: 90px;
+        right: 75px;
+        transform-origin: 50% 100%;
+        transform: rotate(-45deg);
+    }
+
+    .hinge {
+        display: block;
+        width: 75px;
+        height: 75px;
+        background: black;
+        border-radius: 100px;
+        position: absolute;
+        bottom: 40px;
+        right: 60px;
+    }
+
+    .nail {
+        width: 50px;
+        height: 50px;
+        background: black;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        position: absolute;
+        bottom: 5px;
+        right: 210px;
+    }
+
+    .white-box {
+        width: 15px;
+        height: 20px;
+        background: white;
+        bottom: 5px;
+        position: absolute;
+    }
+
+    .white-box:nth-of-type(1) {
+        right: 37px;
+    }
+
+    .white-box:nth-of-type(2) {
+        right: -2px;
+    }
+
+    @keyframes thud {
+        0% { transform: translateY(0px); }
+        30% { transform: translateY(0px); }
+        31% { transform: translateY(20px); }
+        100% { transform: translateY(20px); }
+    }
+
+    &:hover .nail {
+        animation-name: thud;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        transform-origin: 50% 100%;
+    }
+
+
+    .holder {
+        width: 20px;
+        height: 65px;
+        background: black;
+        border: solid 3px black;
+        position: absolute;
+        bottom: 5px;
+        right: 60px;
+    }
+
+    @keyframes bang {
+        0% { transform: rotate(0deg); }
+        10% { transform: rotate(60deg); }
+        20% { transform: rotate(60deg); }
+        30% { transform: rotate(-90deg); }
+        40% { transform: rotate(-45deg); }
+        50% { transform: rotate(-45deg); }
+        60% { transform: rotate(-99deg); }
+        70% { transform: rotate(-90deg); }
+        80% { transform: rotate(-99deg); }
+        90% { transform: rotate(-99deg); }
+        100% { transform: rotate(-99deg); }
+    }
+
+    &:hover img[alt="Hammer"] {
+        animation-name: bang;
+        animation-duration: 2s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
+        transform-origin: 50% 100%;
+    }
+
+    .earth {
+        width: 100%;
+        height: 15px;
+        border-top: solid 1px grey;
+        background: white;
+        position: absolute;
+        bottom: 0;
+        z-index: 15;
+    }
+
+}
+//========================
+//       kunika
+//========================
+#kunika .col-1 {width: 8.3333%;}
+#kunika .col-2 {width: 16.6666%;}
+#kunika .col-3 {width: 25%;}
+#kunika .col-4 {width: 33.3333%;}
+#kunika .col-5 {width: 41.6666%;}
+#kunika .col-6 {width: 50%;}
+#kunika .col-7 {width: 58.3333%;}
+#kunika .col-8 {width: 66.6666%;}
+#kunika .col-9 {width: 75%;}
+#kunika .col-10 {width: 83.3333%;}
+#kunika .col-11 {width: 91.6666%;}
+#kunika .col-12 {width: 100%;}
+
+#kunika [class*="col-"] {
+    float: left;
+    padding: 20px 10px;
+}
+#kunika .inside-wrapper {
+  width: 100%;
+}
+#kunika .k-row:before, .k-row:after {
+    content: "";
+    display: table;
+}
+#kunika .k-row:after {
+    clear: both;
+}
+
+#kunika {
+	width: 100%;
+	height: 100vh;
+}
+
+#kunika h1 {
+	font-family: 'Didact Gothic', serif;
+	color: #FB6252;
+	font-size: 60px;
+	padding: 0 120px;
+	margin: 0;
+}
+
+#kunika span {
+	font-family: 'Didact Gothic', serif;
+	color: #8B8386;
+	font-size: 24px;
+	margin: 5px 120px;
+}
+
+#kunika p {
+	width: 1000px;
+	font-family: 'Didact Gothic', serif;
+	color: #8B8386;
+	font-size: 24px;
+	padding: 10px 20px 10px 180px;
+	margin: 0;
+  line-height: normal;
+}
+
+#kunika h2 {
+	font-family: 'Didact Gothic', serif;
+	color: #8B8386;
+	font-size: 24px;
+	margin: 5px 240px;
+}
+
+#kunika h2>p {
+	font-size: 24px;
+	margin: 0;
+	padding: 10px 60px;
+	width: 850px;
+}
+
+#kunika #console-img {
+	display: none;
+	padding: 20px 180px;
+}
+
+#kunika .kunika-profile {
+  width: 100%;
+}
+
+/*#kunika-img::after {
+	height: 900px;
+    display: block;
+    width: 600px;
+    content: '';
+	background: crimson;
+	border: 10px solid crimson;
+}*/
+
+//========================
+//       Gosia
+//========================
+
+/*main container*/
+#gosia-container {
+    width: 100%;
+    height: 500px;
+    background: url('../img/gosia/van.jpg');
+    background-size: cover;
+    transition: all 1s;
+    position: relative;
+}
+/*polygon container*/
+.gosia-overlay {
+    width: 1100px;
+    height: 500px;
+    background-color: rgba(255, 255, 255, 1);
+    -webkit-clip-path: polygon(0 0, 60% 0, 40% 100%, 0% 100%);
+    clip-path: polygon(0 0, 60% 0, 40% 100%, 0% 100%);
+    position: relative;
+}
+/*all text*/
+#gosia-message {
+    font-family: "Lobster", serif;
+    color: crimson;
+    font-size: 1.5rem;
+    width: 500px;
+    height: 350px;
+    position: absolute;
+    padding: 80px 60px;
+}
+#gosia-message span {
+  display: block;
+  text-align: center;
+  line-height: 100px;
+  font-family: "Lobster", serif;
+  color: crimson;}
+
+/*magical shamrock*/
+.gosia-shamrock {
+    transition: all 0.5s ease-out;
+    height: 100px;
+    position: absolute;
+    bottom: 30px;
+    left: 200px;
+}
+.gosia-shamrock:hover {box-shadow: inset 0px -100px 0px 0px #009A49; transform: rotate(15deg);}
+
+.gosia-face {position:absolute; right: 0; top: 15px; height: 150px; width: auto;}
+
+//========================
+//       Ashly
+//========================
+#ashley .a-container {
+    width: 90%;
+    max-width: 90%;
+    height: 100vh;
+}
+
+/* Background */
+#ashley {
+    background-image: url('../img/bkgd.svg');
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+
+/* Grid */
+#ashley [class*="col-"] {
+    float: left;
+    padding: 20px;
+}
+
+#ashley .a-row:after, .row:before {
+    content: '';
+    display: table;
+}
+
+#ashley .a-row:after { clear: both; }
+#ashley .col-5 { width: 41.6666%; }
+#ashley .col-7 { width: 58.3333%; }
+
+/* Heading */
+#ashley h2 {
+    font-size: 8rem;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: -4px;
+    line-height: 125px;
+    color: #333333;
+    padding-left: 30px;
+    padding-top: 25%;
+    margin: 0;
+}
+
+/* Message */
+#ashley p {
+    font-size: 1.4rem;
+    font-family: 'Didact Gothic', sans-serif;
+    line-height: 2.5rem;
+    color: #463d42;
+    padding-top: 40px;
+    padding-left: 30px;
+    font-size: 1.4rem;
+}
+
+/* Image */
+#ashley .image {
+    position: relative;
+    height: 100%;
+}
+
+#ashley img {
+    position: absolute;
+    width: 100%;
+    max-width: 450px;
+    bottom: 0;
+}
+
+/* Media Query */
+@media only screen and (max-width:940px){
+    #ashley [class*="col-"] {
+        width: 100%;
+    }
+    #ashley {
+        background-image: none;
+    }
+    #ashley .col-5 {
+        display: none;
+    }
+}

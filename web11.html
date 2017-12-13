@@ -11,19 +11,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
-        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700' rel='stylesheet' type='text/css'>
+        <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300,600,700%7CRaleway:700|Chau+Philomene+One|Hammersmith+One' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="css/style.css">
 
     </head>
     <body>
-      <nav>
-        <ul class="nav">
-          <li class="nav-li"><a class="nav-text" href="teachers.html">Teachers</a></li>
-          <li class="nav-li"><a class="nav-text" href="web12.html">Web 12</a></li>
-          <li class="nav-li"><a class="nav-text" href="web13.html">Web 13</a></li>
-          <li class="nav-li"><a class="nav-text" href="web11.html">Silvana</a></li>
-        </ul>
-      </nav>
+        <header id="top-head">
+            <div>
+                <img class="nav-gift" src="img/gift.svg">
+            </div>
+            <div id="nav-bg"></div>
+       </header>
+       <nav class="global-nav">
+           <div class="nav-menu">
+               <ul>
+                   <li><a href="teachers.html" class="nav-link">Teacher</a></li>
+                   <li><a href="web12.html" class="nav-link">WEB 12</a></li>
+                   <li><a href="web13.html" class="nav-link">WEB 13</a></li>
+                   <li><a href="web11.html" class="nav-link">Silvana</a></li>
+               </ul>
+           </div>
+       </nav>
       <div class="container" id="silvana">
       	<div class="top-bar">
       		<img class="icon" src="img/ireland_icon.png">
@@ -99,8 +107,13 @@ Go raibh maith agat arís.</h1><br><h2>Silvana Agolli - Web 11</h2></div>
 			  dots[slideIndex-1].className += " active";
 			}
 
-
 		</script>
-
+        <script
+     src="https://code.jquery.com/jquery-3.2.1.min.js"
+     integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+     crossorigin="anonymous"></script>
+        <script
+     src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenMax.min.js"></script>
+        <script src="js/home.js"></script>
     </body>
 </html>
