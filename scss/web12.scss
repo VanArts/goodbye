@@ -242,3 +242,38 @@ $carlyColour: black;
   	width: 100%;
   }
 }
+
+#nina {
+  position: fixed;
+  margin-top: 80px;
+
+	img {
+    height: 100%;
+    border-radius: 50%;
+  }
+  .copy {
+    position: absolute;
+    top: 180px;
+    right: 150px;
+    width: calc(100% - 1162px + 500px - 50px);
+    max-width: 600px;
+    background-color: hsla(255, 69%, 38%, 0.90);
+    padding: 10px 20px;
+    text-align: left;
+
+    h1 {
+			margin: 0 0 40px 0;
+			padding: 0;
+			text-align: left;
+      font-size: 3rem;
+      color:white;
+    }
+		p {
+			color: white
+    }
+		span{
+      font-weight:bold;
+			color: white;
+    }
+  }
+}
