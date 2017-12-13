@@ -572,34 +572,156 @@ html, body {
     font-weight: bold;
     width: 100%; }
 
-#nina {
-  position: fixed;
-  margin-top: 80px; }
-  #nina img {
-    height: 100%;
-    -webkit-border-radius: 50%;
-            border-radius: 50%; }
-  #nina .copy {
-    position: absolute;
-    top: 180px;
-    right: 150px;
-    width: -webkit-calc(100% - 1162px + 500px - 50px);
-    width: calc(100% - 1162px + 500px - 50px);
-    max-width: 600px;
-    background-color: rgba(63, 30, 164, 0.9);
-    padding: 10px 20px;
-    text-align: left; }
-    #nina .copy h1 {
-      margin: 0 0 40px 0;
-      padding: 0;
-      text-align: left;
-      font-size: 3rem;
-      color: white; }
-    #nina .copy p {
-      color: white; }
-    #nina .copy span {
-      font-weight: bold;
-      color: white; }
+#nina img {
+  height: 100%;
+  -webkit-border-radius: 50%;
+          border-radius: 50%; }
+
+#nina .copy {
+  position: absolute;
+  top: 180px;
+  right: 150px;
+  width: -webkit-calc(100% - 1162px + 500px - 50px);
+  width: calc(100% - 1162px + 500px - 50px);
+  max-width: 600px;
+  background-color: rgba(63, 30, 164, 0.9);
+  padding: 10px 20px;
+  text-align: left; }
+  #nina .copy h1 {
+    margin: 0 0 40px 0;
+    padding: 0;
+    text-align: left;
+    font-size: 3rem;
+    color: white; }
+  #nina .copy p {
+    color: white; }
+  #nina .copy span {
+    font-weight: bold;
+    color: white; }
+
+@font-face {
+  font-family: 'chelsea_market';
+  src: url("../fonts/chelseamarket-regular-webfont.woff2") format("woff2"), url("fonts/chelseamarket-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal; }
+
+#sachiko {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
+  color: #3f2200;
+  /* Brown */
+  margin: 0;
+  padding: 0;
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  /*height: 100vh;*/ }
+
+#sachiko .james {
+  width: auto;
+  height: 100vh;
+  background-image: url("../img/james.png");
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+#sachiko .star-left {
+  width: auto;
+  height: 100vh;
+  background-image: url("../img/star_left.png");
+  background-repeat: no-repeat;
+  background-position: left; }
+
+#sachiko .star-right {
+  width: auto;
+  height: 100vh;
+  background-image: url("../img/star_right.png");
+  background-repeat: no-repeat;
+  background-position: right; }
+
+#sachiko .text-left-con, .text-right-con {
+  width: 50%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  float: left; }
+
+#sachiko .text-right {
+  padding-left: 15vw;
+  padding-right: 5vw;
+  margin-top: 15vh; }
+
+#sachiko .text-left {
+  padding-right: 15vw;
+  padding-left: 5vw;
+  margin-top: 15vh; }
+
+#sachiko .sachiko {
+  font-family: 'chelsea_market';
+  font-size: 1.3rem; }
+
+@media only screen and (max-width: 961px) {
+  #sachiko .text-right {
+    padding-right: 10px;
+    padding-left: 18vw; }
+  #sachiko .text-left {
+    padding-right: 18vw;
+    padding-left: 10px; } }
+
+@media only screen and (max-width: 768px) {
+  #sachiko .text-left-con, .text-right-con {
+    width: 100%;
+    height: auto;
+    display: inherit; }
+  #sachiko .text-right {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    text-align: center; }
+  #sachiko .text-left {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    text-align: center; }
+  #sachiko .james {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-background-size: contain;
+            background-size: contain; }
+  #sachiko .sachiko {
+    text-align: center;
+    display: inherit; } }
 
 #tom {
   position: relative; }

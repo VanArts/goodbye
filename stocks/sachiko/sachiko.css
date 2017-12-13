@@ -1,0 +1,121 @@
+@font-face {
+    font-family: 'chelsea_market';
+    src: url('fonts/chelseamarket-regular-webfont.woff2') format('woff2'),
+         url('fonts/chelseamarket-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* General set up */
+#sachiko {
+  box-sizing: border-box;
+
+  font-family: 'Montserrat', sans-serif;
+  color: #3f2200; /* Brown */
+  margin:0; padding:0;
+
+  max-width: 950px;
+  margin-left: auto;
+  margin-right: auto;
+  /*height: 100vh;*/
+}
+
+#sachiko .james {
+  width: auto;
+  height: 100vh;
+  background-image: url('img/james.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+#sachiko .star-left {
+  width: auto;
+  height: 100vh;
+  background-image: url('img/star_left.png');
+  background-repeat: no-repeat;
+  background-position: left;
+}
+
+#sachiko .star-right {
+  width: auto;
+  height: 100vh;
+  background-image: url('img/star_right.png');
+  background-repeat: no-repeat;
+  background-position: right;
+}
+
+#sachiko .text-left-con,.text-right-con {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  float: left;
+}
+
+#sachiko .text-right {
+  padding-left: 15vw;
+  padding-right: 5vw;
+  margin-top: 15vh;
+}
+
+#sachiko .text-left {
+  padding-right: 15vw;
+  padding-left: 5vw;
+  margin-top: 15vh;
+}
+
+#sachiko .sachiko {
+  font-family: 'chelsea_market';
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 961px) {
+  #sachiko .text-right {
+    padding-right: 10px;
+    padding-left: 18vw;
+  }
+
+  #sachiko .text-left {
+    padding-right: 18vw;
+    padding-left: 10px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  #sachiko .text-left-con,.text-right-con {
+    width: 100%;
+    height: auto;
+    display: inherit;
+  }
+
+  #sachiko .text-right {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #sachiko .text-left {
+    padding-right: 10px;
+    padding-left: 10px;
+    margin-top: 20px;
+    text-align: center;
+  }
+
+  #sachiko .james {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    background-size: contain;
+  }
+
+  #sachiko .sachiko {
+    text-align: center;
+    display: inherit;
+  }
+
+}
