@@ -407,3 +407,171 @@ $carlyColour: black;
   }
 
 }
+#Peter{
+  $primary: #131313;
+  $white:#fff;
+  $secondary:#272A2B;
+  &.section-container{
+    background:$primary;
+    display: flex;
+  }
+
+  .html-icon, .folder-icon{
+    padding-right: 10px;
+    color:#FF8100;
+  }
+
+  .html{
+    color:$white;
+    font-weight: 400;
+  }
+
+  .circle-dot{
+    display: inline-block;
+    border-radius: 50%;
+    width: 10px;
+    margin-left: 15px;
+    height: 10px;
+    background: #4C4C4C;
+  }
+
+  .sidebar{
+    background:$secondary;
+    width: 13%;
+    min-width: 240px;
+    border-right: 1px solid $primary;
+    height: 100vh;
+
+    .file-layout{
+      width: 100%;
+      font-weight: 500;
+      list-style: none;
+
+      li{
+
+        .folder-icon{
+          margin-top: -20px;
+          color:#525252;
+
+          &.close{
+            transform: rotate(-90deg) translate(4.5px,0px);
+            margin-left: -5px;
+          }
+        }
+
+        &.indent{
+          background: #404343;
+          font-weight: 400;
+          font-family: 'Roboto', sans-serif;
+          padding: 10px 40px;
+
+        }
+
+        color:$white;
+        font-size: 1.13rem;
+        margin-bottom: 8px;
+        padding: 10px 30px;
+
+        &:first-child{
+          font-weight: 600;
+          padding: 20px 30px;
+          margin-bottom: 10px;
+          background: $primary;
+        }
+
+      }
+
+    }
+  }
+
+  .main-container{
+    width: 100%;
+
+
+    .code-container{
+      margin-top: 15px;
+      display: flex;
+      .number-container{
+
+        li{
+          list-style: none;
+          color:#333333;
+          font-weight: 500;
+          font-family: 'Roboto Mono', monospace;
+          margin-bottom: 4.9px;
+          text-align: right;
+          font-size: 0.9rem;
+        }
+
+      }
+
+      .message-container {
+        width: 50%;
+        max-width: 1000px;
+
+        li {
+          list-style: none;
+          color: $white;
+          font-family: 'Roboto Mono', monospace;
+          margin-bottom: 24px;
+          font-size: 1.154rem;
+        }
+
+        .one-line{
+          margin-bottom: 0;
+        }
+
+        .comment{
+          color:#333333;
+        }
+
+        .dent{
+          padding-left: 20px;
+        }
+
+        .red-code{
+          color:#FF163A;
+        }
+
+        .yellow-code{
+          color: #E0BA2B;
+        }
+
+      }
+    }
+
+    .code-main{
+      width: 60%;
+      color: $white;
+      max-width:1200px;
+    }
+
+  }
+  .cursor{
+    border-right: 1px solid white;
+    width: 1px;
+    padding-right: 15px;
+    height: 5px;
+    animation: cursor-blink 2s linear 1s infinite;
+  }
+
+
+  @keyframes cursor-blink {
+    0%   {visibility: hidden; opacity: 0;}
+    100% {opacity: 1}
+  }
+
+  .file-convention{
+    height: 70px;
+    width: 100%;
+    background: $secondary;
+
+    .tab{
+      height: 100%;
+      display: inline-flex;
+      padding: 20px 30px;
+      align-items: center;
+      background: $primary;
+    }
+  }
+}
