@@ -439,6 +439,7 @@ $carlyColour: black;
   .sidebar{
     background:$secondary;
     width: 13%;
+    font-family: 'Roboto', sans-serif;
     min-width: 240px;
     border-right: 1px solid $primary;
     height: 100vh;
@@ -447,10 +448,9 @@ $carlyColour: black;
       width: 100%;
       font-weight: 500;
       list-style: none;
+      font-family: 'Roboto', sans-serif;
 
       li{
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
         .folder-icon{
           margin-top: -20px;
           color:#525252;
@@ -473,6 +473,8 @@ $carlyColour: black;
         font-size: 1.13rem;
         margin-bottom: 8px;
         padding: 10px 30px;
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
 
         &:first-child{
           font-weight: 600;
@@ -484,6 +486,10 @@ $carlyColour: black;
       }
 
     }
+  }
+
+  #Peter .sidebar .file-layout li{
+    font-family: 'Roboto', sans-serif;
   }
 
   .main-container{

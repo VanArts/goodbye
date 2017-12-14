@@ -771,20 +771,22 @@ html, body {
 #Peter .sidebar {
   background: #272A2B;
   width: 13%;
+  font-family: 'Roboto', sans-serif;
   min-width: 240px;
   border-right: 1px solid #131313;
   height: 100vh; }
   #Peter .sidebar .file-layout {
     width: 100%;
     font-weight: 500;
-    list-style: none; }
+    list-style: none;
+    font-family: 'Roboto', sans-serif; }
     #Peter .sidebar .file-layout li {
-      font-family: 'Roboto', sans-serif;
-      font-weight: 400;
       color: #fff;
       font-size: 1.13rem;
       margin-bottom: 8px;
-      padding: 10px 30px; }
+      padding: 10px 30px;
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400; }
       #Peter .sidebar .file-layout li .folder-icon {
         margin-top: -20px;
         color: #525252; }
@@ -803,6 +805,9 @@ html, body {
         padding: 20px 30px;
         margin-bottom: 10px;
         background: #131313; }
+
+#Peter #Peter .sidebar .file-layout li {
+  font-family: 'Roboto', sans-serif; }
 
 #Peter .main-container {
   width: 100%; }
