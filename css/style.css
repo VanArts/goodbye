@@ -572,6 +572,28 @@ html, body {
     font-weight: bold;
     width: 100%; }
 
+#nishanth-img{
+    position:absolute;
+    bottom:10%;
+    left:20%;
+    right:20%;
+}
+
+#nishanth-w3c{
+    position:absolute;
+    display:block;
+    margin:auto;
+    top:5%;
+    left:30%;
+}
+
+#nishanth h1{
+    text-align: center;
+    z-index:99;
+    top:55%;
+    position:absolute;
+    left:42%;
+}
 #nina img {
   height: 100%;
   -webkit-border-radius: 50%;
