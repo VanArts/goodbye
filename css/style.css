@@ -907,6 +907,7 @@ html, body {
 
 #Peter .html {
   color: #fff;
+  font-family: 'Roboto', sans-serif;
   font-weight: 400; }
 
 #Peter .circle-dot {
@@ -929,6 +930,8 @@ html, body {
     font-weight: 500;
     list-style: none; }
     #Peter .sidebar .file-layout li {
+      font-family: 'Roboto', sans-serif;
+      font-weight: 400;
       color: #fff;
       font-size: 1.13rem;
       margin-bottom: 8px;

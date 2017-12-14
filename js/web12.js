@@ -15,9 +15,6 @@ $(document).ready(function() {
 				$('#tak').find('.bubble').addClass('jackInTheBox').css('opacity',1);
 			}, 500);
 		}
-
-
 	}
 	});
-
 });
