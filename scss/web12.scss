@@ -423,6 +423,7 @@ $carlyColour: black;
 
   .html{
     color:$white;
+    font-family: 'Roboto', sans-serif;
     font-weight: 400;
   }
 
@@ -448,7 +449,8 @@ $carlyColour: black;
       list-style: none;
 
       li{
-
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
         .folder-icon{
           margin-top: -20px;
           color:#525252;
