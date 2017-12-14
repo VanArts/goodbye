@@ -312,58 +312,65 @@ html, body {
 
 #haruna {
   width: 100vw;
-  height: 100vh;
-  background: #f6f6f6;
-  position: relative; }
-  #haruna .container {
-    width: 90%;
-    max-width: 90%;
-    height: 100%; }
-  #haruna .row {
-    height: 100%; }
-  #haruna .col-6 {
-    height: 100%; }
-  #haruna .picture {
-    width: 100%;
+  height: 100vh; }
+  #haruna .files {
     height: 100%;
+    width: 20vw;
+    background: #393c47;
+    padding: 0;
+    margin: 0;
+    float: left;
+    border-right: solid 6px #2b2d33; }
+  #haruna .field {
+    height: 100%;
+    width: 80vw;
+    background: #1f2842;
+    padding: 1rem;
+    margin: 0;
+    float: left; }
+  #haruna .file {
+    width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: end;
-    -webkit-align-items: flex-end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    position: relative;
-    z-index: 1; }
-  #haruna .picture img {
-    width: 90%;
-    height: 80%;
-    -o-object-fit: contain;
-       object-fit: contain; }
-  #haruna .box {
-    position: absolute;
-    width: 58%;
-    height: 60%;
-    border: solid 5px #da1e75;
-    top: 75px;
-    left: 450px; }
-  #haruna .name h2 {
-    font-size: 6.5rem;
-    font-family: 'Fredoka One', cursive;
-    color: #463d42; }
-  #haruna .message {
-    position: relative;
-    z-index: 2; }
-  #haruna .message p {
-    font-size: 1.4rem;
-    font-family: 'Didact Gothic', sans-serif;
-    line-height: 2.5rem;
-    color: #463d42; }
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0.5rem; }
+    #haruna .file img {
+      width: 10%;
+      height: auto;
+      padding: 0.3rem; }
+    #haruna .file p {
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding-left: 0.5rem;
+      margin: 0.1rem 0;
+      font-family: 'Overpass', sans-serif;
+      font-weight: 600;
+      color: #a7abba; }
+  #haruna .lines p {
+    margin: 0.1rem 0;
+    color: #edeeef;
+    font-weight: bold;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600; }
+  #haruna .lines span {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600; }
+  #haruna .tag {
+    color: #d10049; }
+  #haruna .class {
+    color: #87d100; }
+  #haruna .className {
+    color: #ffee70; }
 
 #tak {
   width: 100vw;
@@ -572,28 +579,6 @@ html, body {
     font-weight: bold;
     width: 100%; }
 
-#nishanth-img{
-    position:absolute;
-    bottom:10%;
-    left:20%;
-    right:20%;
-}
-
-#nishanth-w3c{
-    position:absolute;
-    display:block;
-    margin:auto;
-    top:5%;
-    left:30%;
-}
-
-#nishanth h1{
-    text-align: center;
-    z-index:99;
-    top:55%;
-    position:absolute;
-    left:42%;
-}
 #nina img {
   height: 100%;
   -webkit-border-radius: 50%;
