@@ -179,15 +179,28 @@ html, body {
   margin-left: 20px; }
 
 .page-title {
-  font-size: 5rem;
+  font-size: 5.5rem;
   text-align: center;
-  padding-top: 400px;
-  margin: 0; }
+  margin: 0;
+  font-family: 'Hammersmith One', sans-serif;
+  letter-spacing: 0.1rem; }
 
 .section-container {
   width: 100%;
   height: 100%;
-  height: 100vh; }
+  height: 100vh;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center; }
 
 #fp-nav ul li .fp-tooltip {
   color: #333; }
@@ -196,6 +209,11 @@ html, body {
   text-align: center;
   font-size: 3rem;
   padding-top: 400px; }
+
+.teacherSec {
+  background: #58ef92; }
+  .teacherSec h2 {
+    color: #dc143c; }
 
 #silvana {
   /* Next & previous buttons */
@@ -309,6 +327,11 @@ html, body {
     opacity: .4; }
   to {
     opacity: 1; } }
+
+.web12Sec {
+  background: #dc143c; }
+  .web12Sec h2 {
+    color: #000f5e; }
 
 #haruna {
   width: 100vw;
@@ -755,6 +778,11 @@ html, body {
     #tom article.copy span {
       font-style: italic;
       color: white; }
+
+.web13Sec {
+  background: #ef631c; }
+  .web13Sec h2 {
+    color: #edeeef; }
 
 #renzo {
   width: 100vw;
