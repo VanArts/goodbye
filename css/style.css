@@ -179,10 +179,12 @@ html, body {
   margin-left: 20px; }
 
 .page-title {
-  font-size: 5rem;
+  font-size: 5.5rem;
   text-align: center;
+  margin: 0;
   padding-top: 400px;
-  margin: 0; }
+  font-family: 'Hammersmith One', sans-serif;
+  letter-spacing: 0.1rem; }
 
 .section-container {
   width: 100%;
@@ -338,6 +340,11 @@ html, body {
     -webkit-transform: translate(0, 0);
             transform: translate(0, 0); } }
 
+.teacherSec {
+  background: #58ef92; }
+  .teacherSec h2 {
+    color: #dc143c; }
+
 #silvana {
   /* Next & previous buttons */
   /* Position the "next button" to the right */
@@ -451,60 +458,73 @@ html, body {
   to {
     opacity: 1; } }
 
+.web12Sec {
+  background: #dc143c; }
+  .web12Sec h2 {
+    color: #000f5e; }
+
 #haruna {
   width: 100vw;
-  height: 100vh;
-  background: #f6f6f6;
-  position: relative; }
-  #haruna .container {
-    width: 90%;
-    max-width: 90%;
-    height: 100%; }
-  #haruna .row {
-    height: 100%; }
-  #haruna .col-6 {
-    height: 100%; }
-  #haruna .picture {
-    width: 100%;
+  height: 100vh; }
+  #haruna .files {
     height: 100%;
+    width: 20vw;
+    background: #393c47;
+    padding: 0;
+    margin: 0;
+    float: left;
+    border-right: solid 6px #2b2d33; }
+  #haruna .field {
+    height: 100%;
+    width: 80vw;
+    background: #1f2842;
+    padding: 1rem;
+    margin: 0;
+    float: left; }
+  #haruna .file {
+    width: 100%;
     display: -webkit-box;
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-pack: center;
-    -webkit-justify-content: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: end;
-    -webkit-align-items: flex-end;
-        -ms-flex-align: end;
-            align-items: flex-end;
-    position: relative;
-    z-index: 1; }
-  #haruna .picture img {
-    width: 90%;
-    height: 80%;
-    -o-object-fit: contain;
-       object-fit: contain; }
-  #haruna .box {
-    position: absolute;
-    width: 58%;
-    height: 60%;
-    border: solid 5px #da1e75;
-    top: 75px;
-    left: 450px; }
-  #haruna .name h2 {
-    font-size: 6.5rem;
-    font-family: 'Fredoka One', cursive;
-    color: #463d42; }
-  #haruna .message {
-    position: relative;
-    z-index: 2; }
-  #haruna .message p {
-    font-size: 1.4rem;
-    font-family: 'Didact Gothic', sans-serif;
-    line-height: 2.5rem;
-    color: #463d42; }
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: row;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding-left: 0.5rem; }
+    #haruna .file img {
+      width: 8%;
+      height: auto;
+      padding: 0.3rem; }
+    #haruna .file p {
+      font-size: 1.5rem;
+      font-weight: bold;
+      padding-left: 0.5rem;
+      margin: 0.3rem 0;
+      font-family: 'Overpass', sans-serif;
+      font-weight: 600;
+      color: #a7abba; }
+  #haruna .lines p {
+    margin: 0.1rem 0;
+    color: #edeeef;
+    font-weight: bold;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600;
+    font-size: 1.2rem; }
+  #haruna .lines span {
+    font-family: 'Overpass', sans-serif;
+    font-weight: 600; }
+  #haruna .tag {
+    color: #d10049; }
+  #haruna .class {
+    color: #87d100; }
+  #haruna .className {
+    color: #ffee70; }
 
 #tak {
   width: 100vw;
@@ -874,6 +894,143 @@ html, body {
     text-align: center;
     display: inherit; } }
 
+#Peter.section-container {
+  background: #131313;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; }
+
+#Peter .html-icon, #Peter .folder-icon {
+  padding-right: 10px;
+  color: #FF8100; }
+
+#Peter .html {
+  color: #fff;
+  font-weight: 400; }
+
+#Peter .circle-dot {
+  display: inline-block;
+  -webkit-border-radius: 50%;
+          border-radius: 50%;
+  width: 10px;
+  margin-left: 15px;
+  height: 10px;
+  background: #4C4C4C; }
+
+#Peter .sidebar {
+  background: #272A2B;
+  width: 13%;
+  min-width: 240px;
+  border-right: 1px solid #131313;
+  height: 100vh; }
+  #Peter .sidebar .file-layout {
+    width: 100%;
+    font-weight: 500;
+    list-style: none; }
+    #Peter .sidebar .file-layout li {
+      color: #fff;
+      font-size: 1.13rem;
+      margin-bottom: 8px;
+      padding: 10px 30px; }
+      #Peter .sidebar .file-layout li .folder-icon {
+        margin-top: -20px;
+        color: #525252; }
+        #Peter .sidebar .file-layout li .folder-icon.close {
+          -webkit-transform: rotate(-90deg) translate(4.5px, 0px);
+              -ms-transform: rotate(-90deg) translate(4.5px, 0px);
+                  transform: rotate(-90deg) translate(4.5px, 0px);
+          margin-left: -5px; }
+      #Peter .sidebar .file-layout li.indent {
+        background: #404343;
+        font-weight: 400;
+        font-family: 'Roboto', sans-serif;
+        padding: 10px 40px; }
+      #Peter .sidebar .file-layout li:first-child {
+        font-weight: 600;
+        padding: 20px 30px;
+        margin-bottom: 10px;
+        background: #131313; }
+
+#Peter .main-container {
+  width: 100%; }
+  #Peter .main-container .code-container {
+    margin-top: 15px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex; }
+    #Peter .main-container .code-container .number-container li {
+      list-style: none;
+      color: #333333;
+      font-weight: 500;
+      font-family: 'Roboto Mono', monospace;
+      margin-bottom: 4.9px;
+      text-align: right;
+      font-size: 0.9rem; }
+    #Peter .main-container .code-container .message-container {
+      width: 50%;
+      max-width: 1000px; }
+      #Peter .main-container .code-container .message-container li {
+        list-style: none;
+        color: #fff;
+        font-family: 'Roboto Mono', monospace;
+        margin-bottom: 24px;
+        font-size: 1.154rem; }
+      #Peter .main-container .code-container .message-container .one-line {
+        margin-bottom: 0; }
+      #Peter .main-container .code-container .message-container .comment {
+        color: #333333; }
+      #Peter .main-container .code-container .message-container .dent {
+        padding-left: 20px; }
+      #Peter .main-container .code-container .message-container .red-code {
+        color: #FF163A; }
+      #Peter .main-container .code-container .message-container .yellow-code {
+        color: #E0BA2B; }
+  #Peter .main-container .code-main {
+    width: 60%;
+    color: #fff;
+    max-width: 1200px; }
+
+#Peter .cursor {
+  border-right: 1px solid white;
+  width: 1px;
+  padding-right: 15px;
+  height: 5px;
+  -webkit-animation: cursor-blink 2s linear 1s infinite;
+          animation: cursor-blink 2s linear 1s infinite; }
+
+@-webkit-keyframes cursor-blink {
+  0% {
+    visibility: hidden;
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+@keyframes cursor-blink {
+  0% {
+    visibility: hidden;
+    opacity: 0; }
+  100% {
+    opacity: 1; } }
+
+#Peter .file-convention {
+  height: 70px;
+  width: 100%;
+  background: #272A2B; }
+  #Peter .file-convention .tab {
+    height: 100%;
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    padding: 20px 30px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background: #131313; }
+
 #tom {
   position: relative; }
   #tom img {
@@ -898,6 +1055,11 @@ html, body {
     #tom article.copy span {
       font-style: italic;
       color: white; }
+
+.web13Sec {
+  background: #ef631c; }
+  .web13Sec h2 {
+    color: #edeeef; }
 
 #renzo {
   width: 100vw;
