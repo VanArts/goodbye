@@ -345,14 +345,14 @@ html, body {
             align-items: center;
     padding-left: 0.5rem; }
     #haruna .file img {
-      width: 10%;
+      width: 8%;
       height: auto;
       padding: 0.3rem; }
     #haruna .file p {
       font-size: 1.5rem;
       font-weight: bold;
       padding-left: 0.5rem;
-      margin: 0.1rem 0;
+      margin: 0.3rem 0;
       font-family: 'Overpass', sans-serif;
       font-weight: 600;
       color: #a7abba; }
@@ -361,7 +361,8 @@ html, body {
     color: #edeeef;
     font-weight: bold;
     font-family: 'Overpass', sans-serif;
-    font-weight: 600; }
+    font-weight: 600;
+    font-size: 1.3rem; }
   #haruna .lines span {
     font-family: 'Overpass', sans-serif;
     font-weight: 600; }
