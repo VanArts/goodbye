@@ -3,6 +3,6 @@ $(document).ready(function() {
 		navigation: true,
 		//showActiveTooltip: true,
 		navigationPosition: 'right',
-		navigationTooltips: ['home', 'Patrick','Anne','Dan', 'Shuwen', 'Mustafa', 'Wim', 'Scott', 'Nathan', 'Guy'],
+		navigationTooltips: ['home','Anne','Dan', 'Scott'],
 	});
 });
